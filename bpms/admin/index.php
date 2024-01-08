@@ -21,9 +21,9 @@ if(isset($_POST['login']))
 <!DOCTYPE HTML>
 <html>
 <head>
-<title>BPMS | Login Page </title>
+<title>BARBERSHOP | Login Page </title>
 
-<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<script type="application/x-javascript"> addEventLi	stener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
 <!-- Bootstrap Core CSS -->
 <link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
 <!-- Custom CSS -->
