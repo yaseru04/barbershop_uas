@@ -37,7 +37,7 @@ include('includes/dbconnection.php');
   <body>
 	  <?php include_once('includes/header.php');?>
 
-    <section class="hero-wrap hero-wrap-2" style="background-image: url('images/bg-2.jpg');" data-stellar-background-ratio="0.5">
+    <section class="hero-wrap hero-wrap-2" style="background-image: url('images/bgService.jpg');" data-stellar-background-ratio="0.5">
       <div class="overlay"></div>
       <div class="container">
         <div class="row no-gutters slider-text js-fullheight align-items-end justify-content-center">
@@ -55,10 +55,8 @@ include('includes/dbconnection.php');
 			<div class="container">
 				<div class="row justify-content-center pb-3">
           <div class="col-md-10 heading-section text-center ftco-animate">
-          	<h1 class="big">Pricing</h1>
           	<span class="subheading">Pricing</span>
             <h2 class="mb-4">Our Service Prices</h2>
-            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
           </div>
         </div>
             <table class="table table-bordered"> <thead> <tr> <th>#</th> <th>Service Name</th> <th>Service Price</th> </tr> </thead> <tbody>

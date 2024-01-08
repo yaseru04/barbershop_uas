@@ -8,7 +8,7 @@ include('includes/dbconnection.php');
         <div class="row mb-5">
           <div class="col-md">
             <div class="ftco-footer-widget mb-4">
-              <h2 class="ftco-heading-2 logo">BPMS</h2>
+              <h2 class="ftco-heading-2 logo">Barbershop</h2>
               <?php
 
 $ret=mysqli_query($con,"select * from tblpage where PageType='aboutus' ");
@@ -56,10 +56,8 @@ while ($row=mysqli_fetch_array($ret)) {
           </div>
         </div>
         <div class="row">
-          <div class="col-md-12 text-center">
-
-            <p>
-  2019 &copy; Beauty Parlour Management System  </p>
+          <div class="col-md-12 text-center text-capitalize">
+            <p >BARBERSHOP</p>
           </div>
         </div>
       </div>

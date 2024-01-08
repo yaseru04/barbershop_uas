@@ -1,14 +1,13 @@
 -- phpMyAdmin SQL Dump
--- version 4.9.0.1
+-- version 5.2.1
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Aug 21, 2019 at 07:01 PM
--- Server version: 10.3.15-MariaDB
--- PHP Version: 7.2.19
+-- Generation Time: Jan 08, 2024 at 04:04 AM
+-- Server version: 10.4.28-MariaDB
+-- PHP Version: 8.1.17
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
-SET AUTOCOMMIT = 0;
 START TRANSACTION;
 SET time_zone = "+00:00";
 
@@ -36,7 +35,7 @@ CREATE TABLE `tbladmin` (
   `Email` varchar(200) DEFAULT NULL,
   `Password` varchar(200) DEFAULT NULL,
   `AdminRegdate` timestamp NULL DEFAULT current_timestamp()
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
 
 --
 -- Dumping data for table `tbladmin`
@@ -64,7 +63,7 @@ CREATE TABLE `tblappointment` (
   `Remark` varchar(250) NOT NULL,
   `Status` varchar(50) NOT NULL,
   `RemarkDate` timestamp NOT NULL DEFAULT '0000-00-00 00:00:00' ON UPDATE current_timestamp()
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
 
 --
 -- Dumping data for table `tblappointment`
@@ -76,7 +75,8 @@ INSERT INTO `tblappointment` (`ID`, `AptNumber`, `Name`, `Email`, `PhoneNumber`,
 (3, '965887988', 'Sanjeeta Jain', 'sna@gmail.com', 5646464646, '8/20/2019', '2:30pm', 'Loreal Hair Color(Full)', '2019-08-19 12:35:30', 'we will wait', '1', '2019-08-19 13:37:39'),
 (4, '578797544', 'Anuj Kumar', 'phpgurukulofficial@gmail.com', 123456789, '8/30/2019', '1:30am', 'Test', '2019-08-21 16:13:13', '', '', '0000-00-00 00:00:00'),
 (5, '899118550', 'bb', 'bgfdh@fdfdsf.com', 4234235423, '8/27/2019', '1:30am', 'Loreal Hair Color(Full)', '2019-08-21 16:14:14', '', '', '0000-00-00 00:00:00'),
-(6, '621107928', 'ABC', 'abc@gmail.com', 1234567890, '8/27/2019', '1:30am', 'Rebonding', '2019-08-21 16:22:25', 'Testing', '2', '2019-08-21 16:24:10');
+(6, '621107928', 'ABC', 'abc@gmail.com', 1234567890, '8/27/2019', '1:30am', 'Rebonding', '2019-08-21 16:22:25', 'Testing', '2', '2019-08-21 16:24:10'),
+(7, '159553607', 'halo', '', 1231321312, '1/25/2024', '1:00am', 'Potong Rambut', '2024-01-08 00:58:36', '', '', '0000-00-00 00:00:00');
 
 -- --------------------------------------------------------
 
@@ -93,7 +93,7 @@ CREATE TABLE `tblcustomers` (
   `Details` mediumtext DEFAULT NULL,
   `CreationDate` timestamp NULL DEFAULT current_timestamp(),
   `UpdationDate` timestamp NULL DEFAULT NULL ON UPDATE current_timestamp()
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
 
 --
 -- Dumping data for table `tblcustomers`
@@ -118,7 +118,7 @@ CREATE TABLE `tblinvoice` (
   `ServiceId` int(11) DEFAULT NULL,
   `BillingId` int(11) DEFAULT NULL,
   `PostingDate` timestamp NULL DEFAULT current_timestamp()
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
 
 --
 -- Dumping data for table `tblinvoice`
@@ -159,15 +159,15 @@ CREATE TABLE `tblpage` (
   `MobileNumber` bigint(10) DEFAULT NULL,
   `UpdationDate` date DEFAULT NULL,
   `Timing` varchar(200) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
 
 --
 -- Dumping data for table `tblpage`
 --
 
 INSERT INTO `tblpage` (`ID`, `PageType`, `PageTitle`, `PageDescription`, `Email`, `MobileNumber`, `UpdationDate`, `Timing`) VALUES
-(1, 'aboutus', 'About Us', '        Our main focus is on quality and hygiene. Our Parlour is well equipped with advanced technology equipments and provides best quality services. Our staff is well trained and experienced, offering advanced services in Skin, Hair and Body Shaping that will provide you with a luxurious experience that leave you feeling relaxed and stress free. The specialities in the parlour are, apart from regular bleachings and Facials, many types of hairstyles, Bridal and cine make-up and different types of Facials &amp; fashion hair colourings.', NULL, NULL, NULL, ''),
-(2, 'contactus', 'Contact Us', '890,Sector 62, Gyan Sarovar, GAIL Noida(Delhi/NCR)', 'info@gmail.com', 7896541236, NULL, '10:30 am to 7:30 pm');
+(1, 'aboutus', 'About Us', 'Fokus utama kami adalah pada kualitas dan kebersihan. Barbershop kami dilengkapi dengan peralatan teknologi terkini dan menyediakan layanan berkualitas terbaik. Staf kami telah terlatih dengan baik dan berpengalaman, menawarkan layanan terdepan dalam potongan rambut, perawatan rambut, dan lain lain yang akan memberikan pengalaman mewah sehingga Anda merasa rileks dan bebas stres. serta beragam jenis perawatan wajah dan pewarnaan rambut sesuai tren fashion.', NULL, NULL, NULL, ''),
+(2, 'contactus', 'Contact Us', 'JL.Kota Kita 908 Kota Tegal', 'Barbershop@gmail.com', 7896541236, NULL, '10:30 am to 7:30 pm');
 
 -- --------------------------------------------------------
 
@@ -180,27 +180,17 @@ CREATE TABLE `tblservices` (
   `ServiceName` varchar(200) DEFAULT NULL,
   `Cost` int(10) DEFAULT NULL,
   `CreationDate` timestamp NULL DEFAULT current_timestamp()
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
 
 --
 -- Dumping data for table `tblservices`
 --
 
 INSERT INTO `tblservices` (`ID`, `ServiceName`, `Cost`, `CreationDate`) VALUES
-(1, 'O3 Facial', 1200, '2019-07-25 11:22:38'),
-(2, 'Fruit Facial', 500, '2019-07-25 11:22:53'),
-(3, 'Charcol Facial', 1000, '2019-07-25 11:23:10'),
-(4, 'Deluxe Menicure', 500, '2019-07-25 11:23:34'),
-(5, 'Deluxe Pedicure', 600, '2019-07-25 11:23:47'),
-(6, 'Normal Menicure', 300, '2019-07-25 11:24:01'),
-(7, 'Normal Pedicure', 400, '2019-07-25 11:24:19'),
-(8, 'U-Shape Hair Cut', 250, '2019-07-25 11:24:38'),
-(9, 'Layer Haircut', 550, '2019-07-25 11:24:53'),
-(10, 'Rebonding', 3999, '2019-07-25 11:25:08'),
-(11, 'Loreal Hair Color(Full)', 1200, '2019-07-25 11:25:35'),
-(12, 'Body Spa', 1500, '2019-08-19 13:36:27'),
-(14, 'Test', 100, '2019-08-21 15:45:50'),
-(15, 'ABC', 200, '2019-08-21 16:23:23');
+(1, 'Potong Rambut', 50000, '2019-07-25 11:22:38'),
+(2, 'Hairstyling', 75000, '2019-07-25 11:22:53'),
+(3, 'Perawatan Rambut', 125000, '2019-07-25 11:23:10'),
+(4, 'Beard Trim\r\n', 30000, '2019-07-25 11:23:34');
 
 --
 -- Indexes for dumped tables
@@ -257,7 +247,7 @@ ALTER TABLE `tbladmin`
 -- AUTO_INCREMENT for table `tblappointment`
 --
 ALTER TABLE `tblappointment`
-  MODIFY `ID` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
+  MODIFY `ID` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
 
 --
 -- AUTO_INCREMENT for table `tblcustomers`
