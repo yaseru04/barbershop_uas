@@ -6,7 +6,7 @@ include('includes/dbconnection.php');
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>BPMS-About Us</title>
+    <title>Barbershop-About Us</title>
     
     
     <link href="https://fonts.googleapis.com/css?family=Work+Sans:100,200,300,400,500,600,700,800,900" rel="stylesheet">
@@ -34,7 +34,7 @@ include('includes/dbconnection.php');
   </head>
   <body>
 	  <?php include_once('includes/header.php');?>
-    <section class="hero-wrap hero-wrap-2" style="background-image: url('images/bg-2.jpg');" data-stellar-background-ratio="0.5">
+    <section class="hero-wrap hero-wrap-2" style="background-image: url('images/Abot.jpg');">
       <div class="overlay"></div>
       <div class="container">
         <div class="row no-gutters slider-text js-fullheight align-items-end justify-content-center">
@@ -50,7 +50,7 @@ include('includes/dbconnection.php');
 			<div class="container">
 				<div class="row">
 					<div class="col-md-6 d-flex">
-						<div class="p-md-5 img img-2 d-flex justify-content-center align-items-center" style="background-image: url(images/about.jpg);">
+						<div class="p-md-5 img img-2 d-flex justify-content-center align-items-center" style="background-image: url(images/LogoAbout.jpg);">
 				
 							
 							</a>
@@ -65,7 +65,7 @@ while ($row=mysqli_fetch_array($ret)) {
 
 ?>
 	          <div class="heading-section mb-4 mt-md-5">
-	          	<h1 class="big">About</h1>
+	          	<!-- <h1 class="big">About</h1> -->
 	          	<span class="subheading"><?php  echo $row['PageTitle'];?></span>
 	           
 	          </div>

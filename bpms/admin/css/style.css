@@ -2587,7 +2587,7 @@ i.fa.fa-facebook.profile-icon {
     margin: 2.8em auto 0.6em;
 }
 #navbar-example2 .navbar-brand {
-    font-size: 16px;
+    font-size: 25px;
 }
 .navbar-collapse.bs-example-js-navbar-scrollspy .nav > li > a {
     padding: 15px 8px;
@@ -2677,7 +2677,7 @@ h3.title1 {
     margin: 2em 0 0;
 }
 #navbar-example2 .navbar-brand {
-    font-size: 18px;
+    font-size: 20px;
 }
 .navbar-collapse.bs-example-js-navbar-scrollspy .nav > li > a {
     padding: 15px 20px;
@@ -3786,7 +3786,7 @@ ul.dropdown-menu.drp-mnu li {
     padding: 1.5em 1em;
 }
 #navbar-example2 .navbar-brand {
-    font-size: 16px;
+    font-size: 18px;
 }
 .navbar {
     margin-bottom: 12px;

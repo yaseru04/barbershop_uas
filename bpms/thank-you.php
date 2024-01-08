@@ -6,7 +6,7 @@ error_reporting(0);
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>BPMS-Thank You</title>
+    <title>Barbershop-Thank You</title>
     
     
     <link href="https://fonts.googleapis.com/css?family=Work+Sans:100,200,300,400,500,600,700,800,900" rel="stylesheet">
@@ -35,7 +35,7 @@ error_reporting(0);
   <body>
 	   <?php include_once('includes/header.php');?>
 
-    <section class="hero-wrap hero-wrap-2" style="background-image: url('images/bg-2.jpg');" data-stellar-background-ratio="0.5">
+    <section class="hero-wrap hero-wrap-2" style="background-image: url('images/cuting.jpg');" data-stellar-background-ratio="0.5">
       <div class="overlay"></div>
       <div class="container">
         <div class="row no-gutters slider-text js-fullheight align-items-end justify-content-center">
@@ -58,101 +58,52 @@ error_reporting(0);
     		<div class="row no-gutters">
     			<div class="col-md-6 col-lg-3 ftco-animate">
     				<div class="project">
-	    				<img src="images/work-1.jpg" class="img-fluid" alt="Colorlib Template">
+	    				<img src="images/cenas.jpg" class="img-fluid" alt="Colorlib Template">
 	    				<div class="text">
-	    					<span>Stylist</span>
-	    					<h3>Makeup</h3>
+	    					<span>Hairstyling</span>
+	    					<h3>cepak nanas</h3>
 	    				</div>
-	    				<a href="images/work-1.jpg" class="icon image-popup d-flex justify-content-center align-items-center">
+	    				<a href="images/cenas.jpg" class="icon image-popup d-flex justify-content-center align-items-center">
 	    					<span class="icon-expand"></span>
 	    				</a>
     				</div>
     			</div>
     			<div class="col-md-6 col-lg-3 ftco-animate">
     				<div class="project">
-	    				<img src="images/work-2.jpg" class="img-fluid" alt="Colorlib Template">
+	    				<img src="images/Kamaludin.jpg" class="img-fluid" alt="Colorlib Template">
 	    				<div class="text">
-	    					<span>Beauty</span>
-	    					<h3>Makeup</h3>
+						<span>Hairstyling</span>
+	    					<h3>Handsome Guy</h3>
 	    				</div>
-	    				<a href="images/work-2.jpg" class="icon image-popup d-flex justify-content-center align-items-center">
+	    				<a href="images/Kamaludin.jpg" class="icon image-popup d-flex justify-content-center align-items-center">
 	    					<span class="icon-expand"></span>
 	    				</a>
     				</div>
     			</div>
     			<div class="col-md-6 col-lg-3 ftco-animate">
     				<div class="project">
-	    				<img src="images/work-3.jpg" class="img-fluid" alt="Colorlib Template">
+	    				<img src="images/caphair.jpg" class="img-fluid" alt="Colorlib Template">
 	    				<div class="text">
-	    					<span>Beauty</span>
-	    					<h3>Makeup</h3>
+						<span>Hairstyling</span>
+	    					<h3>cap cutting</h3>
 	    				</div>
-	    				<a href="images/work-3.jpg" class="icon image-popup d-flex justify-content-center align-items-center">
+	    				<a href="images/caphair.jpg" class="icon image-popup d-flex justify-content-center align-items-center">
 	    					<span class="icon-expand"></span>
 	    				</a>
     				</div>
     			</div>
     			<div class="col-md-6 col-lg-3 ftco-animate">
     				<div class="project">
-	    				<img src="images/work-4.jpg" class="img-fluid" alt="Colorlib Template">
+	    				<img src="images/Batok.jpg" class="img-fluid" alt="Colorlib Template">
 	    				<div class="text">
-	    					<span>Beauty</span>
-	    					<h3>Makeup</h3>
+						<span>Hairstyling</span>
+	    					<h3>Batok</h3>
 	    				</div>
-	    				<a href="images/work-4.jpg" class="icon image-popup d-flex justify-content-center align-items-center">
+	    				<a href="images/Batok.jpg" class="icon image-popup d-flex justify-content-center align-items-center">
 	    					<span class="icon-expand"></span>
 	    				</a>
     				</div>
     			</div>
-    			<div class="col-md-6 col-lg-3 ftco-animate">
-    				<div class="project">
-	    				<img src="images/work-5.jpg" class="img-fluid" alt="Colorlib Template">
-	    				<div class="text">
-	    					<span>Beauty</span>
-	    					<h3>Makeup</h3>
-	    				</div>
-	    				<a href="images/work-5.jpg" class="icon image-popup d-flex justify-content-center align-items-center">
-	    					<span class="icon-expand"></span>
-	    				</a>
-    				</div>
-    			</div>
-    			<div class="col-md-6 col-lg-3 ftco-animate">
-    				<div class="project">
-	    				<img src="images/work-6.jpg" class="img-fluid" alt="Colorlib Template">
-	    				<div class="text">
-	    					<span>Fashion</span>
-	    					<h3>Model</h3>
-	    				</div>
-	    				<a href="images/work-6.jpg" class="icon image-popup d-flex justify-content-center align-items-center">
-	    					<span class="icon-expand"></span>
-	    				</a>
-    				</div>
-    			</div>
-    			<div class="col-md-6 col-lg-3 ftco-animate">
-    				<div class="project">
-	    				<img src="images/work-7.jpg" class="img-fluid" alt="Colorlib Template">
-	    				<div class="text">
-	    					<span>Beauty</span>
-	    					<h3>Makeup</h3>
-	    				</div>
-	    				<a href="images/work-7.jpg" class="icon image-popup d-flex justify-content-center align-items-center">
-	    					<span class="icon-expand"></span>
-	    				</a>
-    				</div>
-    			</div>
-    			<div class="col-md-6 col-lg-3 ftco-animate">
-    				<div class="project">
-	    				<img src="images/work-8.jpg" class="img-fluid" alt="Colorlib Template">
-	    				<div class="text">
-	    					<span>Beauty</span>
-	    					<h3>Makeup</h3>
-	    				</div>
-	    				<a href="images/work-8.jpg" class="icon image-popup d-flex justify-content-center align-items-center">
-	    					<span class="icon-expand"></span>
-	    				</a>
-    				</div>
-    			</div>
-    		</div>
     	</div>
 		</section>
 

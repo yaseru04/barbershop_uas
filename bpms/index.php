@@ -62,17 +62,18 @@ $_SESSION['aptno']=$result['AptNumber'];
 	  <?php include_once('includes/header.php');?>
     <!-- END nav -->
 
-    <section id="home-section" class="hero" style="background-image: url(images/bg.jpg);" data-stellar-background-ratio="0.5">
+    <section id="home-section" class="hero" style="background-image: url(images/barberBg.jpg);" data-stellar-background-ratio="0.5"> 
+	<!-- //gambar background main -->
 		  <div class="home-slider owl-carousel">
 	      <div class="slider-item js-fullheight">
 	      	<div class="overlay"></div>
 	        <div class="container-fluid p-0">
 	          <div class="row d-md-flex no-gutters slider-text align-items-end justify-content-end" data-scrollax-parent="true">
-	          	<img class="one-third align-self-end order-md-last img-fluid" src="images/bg_1.png" alt="">
+	          	<img class="one-third align-self-end order-md-last img-fluid" src="images/stylist-5.png" alt="">
 		          <div class="one-forth d-flex align-items-center ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
 		          	<div class="text mt-5">
-		          		<span class="subheading">Beauty Parlour</span>
-			            <h1 class="mb-4">Get Pretty Look</h1>
+		          		<span class="subheading"></span>
+			            <h1 class="mb-4" style="color-white ">Get Handsome Look</h1>
 			            <p class="mb-4">We pride ourselves on our high quality work and attention to detail. The products we use are of top quality branded products.</p>
 			            
 			           
@@ -82,7 +83,7 @@ $_SESSION['aptno']=$result['AptNumber'];
 	        </div>
 	      </div>
 
-	      <div class="slider-item js-fullheight">
+	      <!-- <div class="slider-item js-fullheight">
 	      	<div class="overlay"></div>
 	        <div class="container-fluid p-0">
 	          <div class="row d-flex no-gutters slider-text align-items-center justify-content-end" data-scrollax-parent="true">
@@ -98,7 +99,7 @@ $_SESSION['aptno']=$result['AptNumber'];
 		          </div>
 	        	</div>
 	        </div>
-	      </div>
+	      </div> -->
 	    </div>
     </section>
 
@@ -122,7 +123,7 @@ $_SESSION['aptno']=$result['AptNumber'];
 			              </div>
 			              <div class="col-sm-12">
 			                <div class="form-group">
-					              <input type="email" class="form-control" id="appointment_email" placeholder="Email" name="email" required="true">
+					              <input type="Number Phone" class="form-control" id="appointment_email" placeholder="Number Phone" name="Number Phone" required="true">
 					            </div>
 			              </div>
 				            <div class="col-sm-12">
@@ -165,7 +166,7 @@ $_SESSION['aptno']=$result['AptNumber'];
 						</div>
     			</div>
 					<div class="one-third">
-						<div class="img" style="background-image: url(images/bg-1.jpg);">
+						<div class="img" style="background-image: url(images/BgReservation.jpg);">
 						</div>
 					</div>
     		</div>
