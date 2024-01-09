@@ -60,7 +60,7 @@ if(isset($_POST['login']))
 				<h3 class="title1">SignIn Page</h3>
 				<div class="widget-shadow">
 					<div class="login-top">
-						<h4>Welcome back to BPMS AdminPanel ! </h4>
+						<h4>Admin Panel Login </h4>
 					</div>
 					<div class="login-body">
 						<form role="form" method="post" action="">

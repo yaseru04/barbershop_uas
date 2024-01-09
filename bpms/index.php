@@ -123,7 +123,7 @@ $_SESSION['aptno']=$result['AptNumber'];
 			              </div>
 			              <div class="col-sm-12">
 			                <div class="form-group">
-					              <input type="Number Phone" class="form-control" id="appointment_email" placeholder="Number Phone" name="Number Phone" required="true">
+					              <input type="email" class="form-control" id="appointment_email" placeholder="email" name="Your Email" required="true">
 					            </div>
 			              </div>
 				            <div class="col-sm-12">

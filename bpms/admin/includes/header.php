@@ -6,7 +6,7 @@
         <!--logo -->
         <div class="logo">
           <a href="index.html">
-            <h1>BPMS</h1>
+            <h1>Barbershop</h1>
             <span>AdminPanel</span>
           </a>
         </div>
